@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762abe16-43c4-4ecf-8d60-31a03454d536" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PysparkFastAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/endpoints/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/endpoints/customer_endpoints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/configs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/configs/app_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/configs/spark_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dtos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dtos/customerDTO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dtos/responses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dtos/responses/base_response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/customer_service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/customer_service/customer_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="762abe16-43c4-4ecf-8d60-31a03454d536" name="Changes" comment="DTO changes for customer responses">
+      <change afterPath="$PROJECT_DIR$/app/dtos/customer/average_salary_DTO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/endpoints/customer_endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/endpoints/customer_endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/customer_service/customer_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/customer_service/customer_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +110,36 @@
       <updated>1749443377185</updated>
       <workItem from="1749443378213" duration="11076000" />
       <workItem from="1749465473599" duration="18000" />
-      <workItem from="1749465508364" duration="1869000" />
+      <workItem from="1749465508364" duration="2525000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1749467439476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749467439476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DTO changes for customer responses">
+      <option name="closed" value="true" />
+      <created>1749467564955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749467564955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="DTO changes for customer responses" />
+    <option name="LAST_COMMIT_MESSAGE" value="DTO changes for customer responses" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PysparkFastAPI$PysparkFastAPI.coverage" NAME="PysparkFastAPI Coverage Results" MODIFIED="1749467371904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Documents" />
+    <SUITE FILE_PATH="coverage/PysparkFastAPI$PysparkFastAPI.coverage" NAME="PysparkFastAPI Coverage Results" MODIFIED="1749467510187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Documents" />
   </component>
 </project>
